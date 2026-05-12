@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: task-api
-          image: dockerhub_user/task-api:REPLACE_IMAGE_TAG
+          image: khanh662006q/task-api:15
           ports:
             - containerPort: 3000
           env:
