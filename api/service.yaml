@@ -10,4 +10,4 @@ spec:
       targetPort: 3000
   selector:
     app: task-api
-  type: LoadBalancer
+  type: NodePort
