@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: task-api
-          image: khanh662006q/task-api:25
+          image: khanh662006q/task-api:26
           ports:
             - containerPort: 3000
           env:
